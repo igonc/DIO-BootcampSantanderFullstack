@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Basis</title>
+    <style>
+        .container {
+            max-width: 500px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item {
+            background-color: violet;
+            color: white;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .basis-auto {
+            flex-basis: auto;
+        }
+
+        .basis-0 {
+            flex-basis: 0;
+        }
+
+        .fgrow-0 {
+            flex-grow: 0;
+        }
+
+        .fgrow-1 {
+            flex-grow: 1;
+        }
+
+        .fgrow-2 {
+            flex-grow: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <h4>flex-basis: 0 / flex-grow: 0</h4>
+    <div class="container">
+        <div class="item basis-0 fgrow-0">A</div>
+        <div class="item basis-0 fgrow-0">BBBBB</div>
+        <div class="item basis-0 fgrow-0">CC</div>
+        <div class="item basis-0 fgrow-0">DDD</div>
+    </div>
+    <h4>flex-basis: auto / flex-grow: 0</h4>
+    <div class="container">
+        <div class="item basis-auto fgrow-0">A</div>
+        <div class="item basis-auto fgrow-0">BBBBBB</div>
+        <div class="item basis-auto fgrow-0">CC</div>
+        <div class="item basis-auto fgrow-0">DDD</div>
+    </div>
+    <h4>flex-basis: 0 / flex-grow: 1</h4>
+    <div class="container">
+        <div class="item basis-0 fgrow-1">A</div>
+        <div class="item basis-0 fgrow-1">BBBBB</div>
+        <div class="item basis-0 fgrow-1">CC</div>
+        <div class="item basis-0 fgrow-1">DDD</div>
+    </div>
+    <h4>flex-basis: auto / flex-grow: 1</h4>
+    <div class="container">
+        <div class="item basis-auto fgrow-1">A</div>
+        <div class="item basis-auto fgrow-1">BBBBB</div>
+        <div class="item basis-auto fgrow-1">CC</div>
+        <div class="item basis-auto fgrow-1">DDD</div>
+    </div>
+    <h4>flex-basis: 0 / flex-grow: 1</h4>
+    <div class="container">
+        <div class="item basis-0 fgrow-1">A</div>
+        <div class="item basis-0 fgrow-1">BBBBB</div>
+        <div class="item basis-0 fgrow-2">CC</div>
+        <div class="item basis-0 fgrow-2">DDD</div>
+    </div>
+    <h4>flex-basis: auto / flex-grow: 1</h4>
+    <div class="container">
+        <div class="item basis-auto fgrow-1">A</div>
+        <div class="item basis-auto fgrow-1">BBBBB</div>
+        <div class="item basis-auto fgrow-2">CC</div>
+        <div class="item basis-auto fgrow-2">DDD</div>
+    </div>
+    
+</body>
+
+</html>

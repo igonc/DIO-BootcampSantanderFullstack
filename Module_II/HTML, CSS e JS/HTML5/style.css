@@ -1,0 +1,70 @@
+body
+{
+    background: rgba(255, 255, 255, 0.171);
+    max-width: 1340px;
+    margin: auto;
+}
+.photo
+{
+    max-width: 100%;
+}
+
+#title, .subtitle, .post_title, .post
+{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#title
+{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.subtitle
+{
+    font-size: 30px;
+    margin-left: 20px;
+    padding-left: 20px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.post_title 
+{
+    font-size: 20px;
+    font-style: oblique;
+    text-decoration: underline;
+    text-align:center;
+}
+.post
+{
+    background: rgba(102, 92, 57, 0.171);
+    padding: 18px;
+    border: rgba(18, 149, 209, 0.774) 3px solid;
+    border-top-left-radius: 25px;
+    border-top-width: 3px;
+    border-top-style: dotted;
+    margin: 20px;
+    text-align: justify;
+}
+.paragraph
+{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact_list
+{
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(8, 128, 240);
+}
+.contact_list li a 
+{
+    text-decoration: none;
+    color: rgb(8, 128, 240);
+}
