@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Content</title>
+    <style>
+        .container{
+            height: 400px;
+            max-width: 300px;
+            margin: 0 auto;
+            border: 1px solid black;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item{
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+        }
+        .flex-start{
+            align-content: flex-start;
+        }
+        .flex-end{
+            align-content: flex-end;
+        }
+        .space-around{
+            align-content: space-around;
+        }
+        .space-between{
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <h4>Stretch - padrão</h4>
+    <div class="container stretch">
+        <div class="item">Início</div>
+        <div class="item">Objetivos | Missão | Política | Quem Somos</div>,
+        <div class="item">Design e Simulação de Processos</div>
+        <div class="item">Empresa</div>
+        <div class="item">Serviços | Produtos | Ferramentas</div>
+        <div class="item">Atendimento ao Cliente</div>
+        <div class="item">Fale Conosco</div>
+    </div>
+    <h4>Center</h4>
+    <div class="container center">
+        <div class="item">Início</div>
+        <div class="item">Objetivos | Missão | Política | Quem Somos</div>,
+        <div class="item">Design e Simulação de Processos</div>
+        <div class="item">Empresa</div>
+        <div class="item">Serviços | Produtos | Ferramentas</div>
+        <div class="item">Atendimento ao Cliente</div>
+        <div class="item">Fale Conosco</div>
+    </div>
+    <h4>Flex-start</h4>
+    <div class="container flex-start">
+        <div class="item">Início</div>
+        <div class="item">Objetivos | Missão | Política | Quem Somos</div>,
+        <div class="item">Design e Simulação de Processos</div>
+        <div class="item">Empresa</div>
+        <div class="item">Serviços | Produtos | Ferramentas</div>
+        <div class="item">Atendimento ao Cliente</div>
+        <div class="item">Fale Conosco</div>
+    </div>
+    <h4>Flex-end</h4>
+    <div class="container flex-end">
+        <div class="item">Início</div>
+        <div class="item">Objetivos | Missão | Política | Quem Somos</div>,
+        <div class="item">Design e Simulação de Processos</div>
+        <div class="item">Empresa</div>
+        <div class="item">Serviços | Produtos | Ferramentas</div>
+        <div class="item">Atendimento ao Cliente</div>
+        <div class="item">Fale Conosco</div>
+    </div>
+    <h4>space-around</h4>
+    <div class="container space-around">
+        <div class="item">Início</div>
+        <div class="item">Objetivos | Missão | Política | Quem Somos</div>,
+        <div class="item">Design e Simulação de Processos</div>
+        <div class="item">Empresa</div>
+        <div class="item">Serviços | Produtos | Ferramentas</div>
+        <div class="item">Atendimento ao Cliente</div>
+        <div class="item">Fale Conosco</div>
+    </div>
+    <h4>space-between</h4>
+    <div class="container space-between">
+        <div class="item">Início</div>
+        <div class="item">Objetivos | Missão | Política | Quem Somos</div>,
+        <div class="item">Design e Simulação de Processos</div>
+        <div class="item">Empresa</div>
+        <div class="item">Serviços | Produtos | Ferramentas</div>
+        <div class="item">Atendimento ao Cliente</div>
+        <div class="item">Fale Conosco</div>
+    </div>
+</body>
+</html>
