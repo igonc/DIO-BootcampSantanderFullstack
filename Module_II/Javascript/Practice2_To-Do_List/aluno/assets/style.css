@@ -1,0 +1,66 @@
+
+#list{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    align-items: center;
+    justify-content: center;
+}
+
+#task-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    text-decoration: underline;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#task-input{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: hsl(0, 0%, 90%);
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: 30px;
+    width: 220px;
+    min-width: 120px;
+    font-weight: bolder;
+    
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    border: green;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+:checked + label {
+    text-decoration: line-through;
+    color: rgb(96, 165, 96);
+}
